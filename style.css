@@ -1,0 +1,138 @@
+body {
+  background-color: darkcyan;
+  background-image: url(bg-pattern-top.svg), url(bg-pattern-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: top -5px left -10px;
+
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 18px;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.wrapper {
+  width: 650px;
+  height: 650px;
+  border-radius: 3%;
+  background-color: whitesmoke;
+  overflow: hidden;
+}
+.wrapper img {
+  width: 100%;
+  height: 30%;
+}
+
+.profile img {
+  width: 205px;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin-top: -6em;
+}
+
+.profile h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.profile h2 span {
+  font-weight: 400;
+  color: grey;
+}
+
+.profile p.text {
+  color: grey;
+  font-size: 1.6rem;
+}
+
+.stats {
+  border-top: 1px solid lightgray;
+  margin-top: 4em;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.stats p.num {
+  color: black;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.stats p {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+/*
+
+
+.container {
+  background-color: aliceblue;
+  margin: 0 auto;
+  border-radius: 2%;
+  width: 650px;
+  height: 650px;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  height: 250px;
+  border-radius: 2%;
+  background-image: url("bg-pattern-card.svg");
+}
+
+
+
+
+
+.profile img {
+  margin-top: 5em;
+  width: 220px;
+  border: 0.4em solid white;
+  border-radius: 50%;
+}
+
+.profile h2 {
+  font-size: 1.8rem;
+  padding: 1px;
+  margin: 0.5em 0 0 0;
+}
+
+.profile h2 span {
+  margin-left: 1.5px;
+  color: gray;
+  font-weight: lighter;
+}
+
+.profile p {
+  color: gray;
+  font-size: 1.5rem;
+  margin-top: 0.1em;
+  margin-bottom: 3em;
+}
+
+.stats {
+  border-top: 1px solid lightgray;
+  margin: 1px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stats p.num {
+  color: black;
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+.stats p {
+  color: gray;
+}
+
+*/

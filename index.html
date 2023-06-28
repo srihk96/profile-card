@@ -1,35 +1,57 @@
 <!DOCTYPE html>
 <head>
     <title>Profile Card</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body> 
-    <div class="container">
-        <div class="wrapper">
-            <img src="bg-pattern-card.svg" alt="pattern img">
-            <div class="profile">                
-                <img src="image-victor.jpg" alt="display pic">
-                <h2>Victor Crest <span>26</span></h2>
-                <p class="text">London</p>
-                <div class="stats">
-                    <div>
-                      <p class="num">801K</p>
-                      <p>Followers</p>
-                    </div>
-                    <div>
-                      <p class="num">81K</p>
-                      <p>Likes</p>
-                    </div>
-                    <div>
-                      <p class="num">1.4k</p>
-                      <p>Photos</p>
-                    </div>
-                </div>
-            </div>
+  <main>
+    <div class="card-container">
+  
+      <div class="card-header">  
+          <div class="bg-pattern">
+            <img class="pattern" src="bg-pattern-card.svg" alt="">
+         </div>
+  
+         <div class="card-image">
+           <img class="image" src="image-victor.jpg" alt="victor img">
+         </div>
+
+         <div class="card-info"> 
+          <p class="name"> <span>Victor Crest</span> 26 </p>
+          <p class="city"> London </p>
+        </div>   
+        <hr>
+
+      </div>          
+      
+      <div class="card-footer">
+
+        <div class="card-followers">
+          <P class="num">80K</P>
+          <p class="follow">Followers</p>
         </div>
-    </div>   
+        
+        <div class="card-followers">
+          <P class="num">803K</P>
+          <p class="follow">Likes</p>
+        </div>
+
+        <div class="card-followers">
+          <P class="num">80K </P>
+          <p class="follow">Followers</p>         
+        </div>
+    
+      </div>
+    
+    </div> 
+
+  </main>
+    
 </body>
 </html>
+
+
